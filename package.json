@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "webpack": "webpack --progress --colors --watch",
-    "run": "nodemon --exec babel-node dist/bundle.js"
+    "dev": "nodemon --exec babel-node dist/bundle.js"
   },
   "repository": {
     "type": "git",
